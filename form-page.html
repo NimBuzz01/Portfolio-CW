@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGN UP</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+</head>
+<body>
+<!-- Nav Bar -->
+<nav class="nav">
+    <div class="logo">NIMBUZZ</div>
+    <div class="nav-menu">
+        <a href="index.html" class="nav-links">Home</a>
+        <a href="about-page.html" class="nav-links">About</a>
+        <a href="blog-page.html" class="nav-links">Blog</a>
+        <a href="form-page.html" class="nav-links">Sign Up</a>
+    </div>
+</nav>
+<!-- Wrapper for the Page -->
+<section class="wrapper">
+    <!-- Form Box -->
+    <div class="form-box">
+        <img src="https://lh3.google.com/u/0/d/1-WTX2Kw4ZlgLnwT9gYyFOxVXowT9eS-t=w1375-h881-iv1" alt=""/>
+        <h2>Subscribe to our Newsletter</h2>
+        <p>Dont Miss Our Weekly Content. Subscribe Now!</p>
+        <div class="form-content">
+            <input type="email" class="input" placeholder="Enter E-mail"/>
+            <span></span>
+            <input type="submit" value="Subscribe" class="sub-button">
+        </div>
+    </div>
+</section>
+<!-- Footer for the Page -->
+<footer class="footer">
+    <div class="footer-content">
+        <!-- Footer Social Links -->
+        <ul class="socials">
+            <li><a href="https://www.facebook.com/profile.php?id=100005175947537"><i class="fa fa-facebook-square"></i></a>
+            </li>
+            <li><a href="https://github.com/NimBuzz01"><i class="fa fa-github"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/niamat-marjan-b55610207/"><i class="fa fa-linkedin-square"></i></a>
+            </li>
+            <li><a href="https://twitter.com/nimbuzz__"><i class="fa fa-twitter"></i></a></li>
+        </ul>
+    </div>
+    <div class="footer-bottom">
+        <p>copyright &copy;2021. designed by <span>NimBuzz</span></p>
+    </div>
+</footer>
+
+<script>
+    <!-- Sticky Nav Script -->
+    window.addEventListener("scroll", function () {
+        let nav = document.querySelector("nav");
+        nav.classList.toggle("sticky", window.scrollY > 0);
+    })
+</script>
+
+</body>
+</html>
